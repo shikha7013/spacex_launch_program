@@ -2,7 +2,7 @@ var mainContent=document.getElementById("main-content")
 mainContent.style["display"]="flex"
 mainContent.style["justifyContent"]="space-between"
 mainContent.style["flexWrap"]="wrap"
-mainContent.style["padding"]="1rem"
+mainContent.style["padding"]="0.5rem"
 
 var year_tag
 var launch_clicked=0;
@@ -152,8 +152,8 @@ function createDatacard(data){
     var slaunch = document.createElement("p")
     var sland = document.createElement("p")
     div.style["backgroundColor"] = "white"
-    div.style["width"] = "19vw"
-    div.style["height"] = "70vh"
+    div.style["width"] = "17vw"
+    div.style["height"] = "65vh"
     div.style["padding"] = "1rem"
     img.style["backgroundColor"] = "lightgray"
     div.style["marginTop"]="1rem"
