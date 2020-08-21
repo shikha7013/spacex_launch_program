@@ -1,8 +1,8 @@
 var mainContent=document.getElementById("main-content")
 mainContent.style["display"]="flex"
-mainContent.style["justifyContent"]="space-between"
+mainContent.style["justifyContent"]="space-evenly"
 mainContent.style["flexWrap"]="wrap"
-mainContent.style["padding"]="0.5rem"
+
 
 var year_tag
 var launch_clicked=0;
@@ -156,8 +156,8 @@ function createDatacard(data){
     div.style["height"] = "65vh"
     div.style["padding"] = "1rem"
     img.style["backgroundColor"] = "lightgray"
-    div.style["marginTop"]="1rem"
-    div.style["borderRadius"]="0.5rem"
+    div.style["marginTop"]="0.5rem"
+    div.style["borderRadius"]="1rem"
     sland.innerHTML = `<b>Successful Landing: </b>` + data["rocket"]["first_stage"]["cores"][0]["land_success"]
     slaunch.innerHTML = `<b>Successful Launch: </b>` + data["launch_success"]
     ly.innerHTML = `<b>Launch Year: </b>` + data.launch_year
