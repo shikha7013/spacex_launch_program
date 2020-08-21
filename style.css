@@ -1,6 +1,6 @@
 .container-parent{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position:relative;
     top:-1rem;
 }
@@ -9,21 +9,22 @@ body{
    
 }
 .side-menu{
-     width:12vw;
+     width:17%;
     background-color: white;
     padding:1rem;
     margin-left: 0.5rem;
-    height:75vh;
+    height:78vh;
+    border-radius: 0.5rem;
 }
 .type{
     text-align: center;
     text-decoration: underline;
-    margin-top: 0.1rem;
+    margin-top: 0.5rem;
 }
 button{
     background-color:#B2FF66;
     border-radius:0.3rem;
-    width:5vw;
+    width:7vw;
     padding:0.5rem ;
     border:0 red
   
@@ -48,6 +49,6 @@ td{
 }
 #main-content{
    
-    width:100vw;
+    width:80%;
     
 }
