@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Program</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body onload="getSpacedata()">
+    
+        <h1>SpaceX Launch Programs
+        </h1>
+        <div class="container-parent">
+            <div class="side-menu">
+                <b>Filters</b><br></br>
+                <div class="type">Launch Year</div>
+                <table >
+                    <tr>
+                        <td>
+                            <button value="2006" onclick="getYeardata(this)">2006</button>
+                        </td>
+                        <td>
+                            <button value="2007" onclick="getYeardata(this)">2007</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button value="2008" onclick="getYeardata(this)">2008</button>
+                        </td>
+                        <td>
+                            <button value="2009" onclick="getYeardata(this)">2009</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button value="2010" onclick="getYeardata(this)">2010</button>
+                        </td>
+                        <td>
+                            <button value="2011" onclick="getYeardata(this)">2011</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button value="2012" onclick="getYeardata(this)">2012</button>
+                        </td>
+                        <td>
+                            <button value="2013" onclick="getYeardata(this)">2013</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button value="2014" onclick="getYeardata(this)">2014</button>
+                        </td>
+                        <td>
+                            <button value="2015" onclick="getYeardata(this)">2015</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button value="2016" onclick="getYeardata(this)">2016</button>
+                        </td>
+                        <td>
+                            <button value="2017" onclick="getYeardata(this)">2017</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button value="2018" onclick="getYeardata(this)">2018</button>
+                        </td>
+                        <td>
+                            <button value="2019" onclick="getYeardata(this)">2019</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button value="2020" onclick="getYeardata(this)">2020</button>
+                        </td>
+                        
+                    </tr>
+                </table>
+                
+               
+                
+                
+                <div class="type">Successful Launch</div>
+                <table>
+                    <tr>
+                        <td>
+                            <button value="true" onclick="getLaunchdata(this)">True</button>
+                        </td>
+                        <td>
+                            <button value="false" onclick="getLaunchdata(this)">False</button>
+                        </td>
+                    </tr>
+                </table>
+                <div class="type">Successful Landing</div>
+                <table>
+                    <tr>
+                        <td>
+                            <button  value="true" onclick="getLanddata(this)">True</button>
+                        </td>
+                        <td>
+                            <button  value="false" onclick="getLanddata(this)">False</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+             <div id="main-content">
+                <header></header>
+            </div>
+        </div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js" crossorigin="true"></script>
+<script src="script.js"></script>
+</body>
+</html>

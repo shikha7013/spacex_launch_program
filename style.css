@@ -1,0 +1,61 @@
+.container-parent{
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    top:-1rem;
+}
+body{
+    background-color:lightgrey;
+   
+}
+.side-menu{
+     width:12vw;
+    background-color: white;
+    padding:1rem;
+    margin-left: 0.5rem;
+    height:90vh;
+}
+.container{
+   width:25vw;
+    background-color: cornsilk;
+    padding:2rem;
+    text-align: center;
+    box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
+    margin-right:1.5rem;
+}
+.type{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.1rem;
+}
+button{
+    background-color:#B2FF66;
+    border-radius:0.3rem;
+    width:5vw;
+    padding:0.5rem ;
+    border:0 red
+  
+}
+.highlight_year{
+    background-color:#66CC00;
+}
+.highlight_launch{
+    background-color:#66CC00;
+}
+.highlight_land{
+    background-color:#66CC00;
+}
+button:hover{
+    background-color:#66CC00;
+}
+table{
+    margin-top: 0.5rem;
+}
+td{
+    padding:0.4rem;
+}
+#main-content{
+   
+    width:100vw;
+    padding:0.5rem;
+}
