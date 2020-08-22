@@ -8,14 +8,15 @@
    
 </head>
 <body onload="getSpacedata()">
-    
+    <div class="header">
         <h1>SpaceX Launch Programs
         </h1>
-        <div class="container-parent">
-            <div class="side-menu">
-                <section style="font-weight: bold; font-size: large;">Filters</section>
-                <div class="type">Launch Year</div>
-                <table >
+        </div>
+        <div class="row">
+            <div class="side-menu"> 
+                <section style="font-weight: bold; font-size: large; margin-left:6%;">Filters</section>
+                <p class="type">Launch Year</p>
+                <table class="table" >
                     <tr>
                         <td>
                             <button value="2006" onclick="getYeardata(this)">2006</button>
@@ -79,12 +80,8 @@
                         
                     </tr>
                 </table>
-                
-               
-                
-                
-                <div class="type">Successful Launch</div>
-                <table>
+                <p class="type">Successful Launch</p>
+                <table class="table">
                     <tr>
                         <td>
                             <button value="true" onclick="getLaunchdata(this)">True</button>
@@ -94,8 +91,8 @@
                         </td>
                     </tr>
                 </table>
-                <div class="type">Successful Landing</div>
-                <table>
+                <p class="type">Successful Landing</p>
+                <table class="table">
                     <tr>
                         <td>
                             <button  value="true" onclick="getLanddata(this)">True</button>

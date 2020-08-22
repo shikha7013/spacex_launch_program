@@ -151,18 +151,13 @@ function createDatacard(data){
     var ly = document.createElement("p")
     var slaunch = document.createElement("p")
     var sland = document.createElement("p")
-    div.style["backgroundColor"] = "white"
-    div.style["width"] = "17vw"
-    div.style["height"] = "65vh"
-    div.style["padding"] = "1rem"
-    img.style["backgroundColor"] = "lightgray"
-    div.style["marginTop"]="0.5rem"
-    div.style["borderRadius"]="1rem"
+    div.classList.add("data-card")
+    img.classList.add("responsive-img")
     sland.innerHTML = `<b>Successful Landing: </b>` + data["rocket"]["first_stage"]["cores"][0]["land_success"]
     slaunch.innerHTML = `<b>Successful Launch: </b>` + data["launch_success"]
     ly.innerHTML = `<b>Launch Year: </b>` + data.launch_year
     p.style["fontWeight"] = "bold"
-    p.style["color"] = "gray"
+    p.style["color"] = "blue"
     text.innerHTML = `<b>Mission Ids:</b>`;
     li.innerHTML = data["mission_ids"]
     ul.appendChild(li)

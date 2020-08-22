@@ -1,31 +1,82 @@
-.container-parent{
-    display:flex;
-    justify-content: space-evenly;
+.row div{
+   float:left;
+  
     position:relative;
     top:-1rem;
 }
+  /* * {
+  box-sizing: border-box;
+}    */
 body{
     background-color:lightgrey;
    
 }
+
 .side-menu{
      width:17%;
     background-color: white;
     padding:1rem;
     margin-top:0.5rem;
     margin-left: 0.5rem;
-    height:78vh;
-    border-radius: 0.5rem;
+    height:fix-content;
+    border-radius: 0rem;
+}
+.data-card{
+background-color:white;
+width:21%;
+height:fix-content;
+padding:1rem;
+margin-top:0.5rem;
+border-radius:1rem;
+}
+#main-content{
+   
+    width:80%;
+    margin-top:1rem;
+    
 }
 .type{
     text-align: center;
     text-decoration: underline;
     margin-top: 0.5rem;
 }
+@media screen and (max-width: 700px) {
+  /* For mobile phones: */
+.side-menu{
+    width:87%;
+    margin-right: 3%;
+     margin-left: 0.8rem;
+}
+.data-card{
+    width:100%;
+   margin-right: 3%;
+   margin-left:3%;
+}
+#main-content{
+    width:100%;
+    margin-top: 1.5rem;
+}
+p section{
+    font-size:150%;
+}
+}
+
+td{
+    text-align:center;
+}
+.responsive-img{
+    background-color: lightgrey;
+    width:98%;
+    height:auto;
+}
+
+.table{
+    width:90%
+}
 button{
     background-color:#B2FF66;
     border-radius:0.3rem;
-    width:7vw;
+    width:80%;
     padding:0.5rem ;
     border:0 red
   
@@ -47,9 +98,4 @@ table{
 }
 td{
     padding:0.4rem;
-}
-#main-content{
-   
-    width:80%;
-    
 }
