@@ -32,7 +32,7 @@ border-radius:1rem;
 #main-content{
    
     width:80%;
-    margin-top:1rem;
+       margin-top:1rem;
     
 }
 .type{
@@ -54,28 +54,29 @@ td{
     width:90%
 }
 button{
-    background-color:#B2FF66;
+    background-color:#b3d581;
+    
     border-radius:0.3rem;
     width:80%;
     padding:0.5rem ;
-    border:0 red
+    border:0 
   
 }
 .highlight_year{
-    background-color:#66CC00;
+    background-color:#76a136;
 }
 .highlight_launch{
-    background-color:#66CC00;
+    background-color:#76a136;
 }
 .highlight_land{
-    background-color:#66CC00;
+    background-color:#76a136;
 }
 button:hover{
-    background-color:#66CC00;
+    background-color:#76a136;
 }
 table{
     margin-top: 0.5rem;
-}
+}   
 td{
     padding:0.4rem;
 }
@@ -85,8 +86,7 @@ td{
  
 .side-menu{
     width:85%;
-   
-     margin-left: 0.8rem;
+    margin-left: 0.8rem;
 }
 .data-card{
     width:100%;

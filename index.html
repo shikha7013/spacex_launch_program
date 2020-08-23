@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
+    <meta name="description" content="SpaceX Assignment App">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpaceX Program</title>
     <link rel="stylesheet" href="style.css">
    
 </head>
 <body onload="getSpacedata()">
-    <div class="header">
-        <h1>SpaceX Launch Programs
+    
+      <header style="margin-left:0.7%;">  <h1>SpaceX Launch Programs
         </h1>
-        </div>
-        <div class="row">
+        </header>
+        
+    <div class="row">
             <div class="side-menu"> 
-                <section style="font-weight: bold; font-size: large; margin-left:6%;">Filters</section>
+                <section style="font-weight: bold; font-size: large; ">Filters</section>
                 <p class="type">Launch Year</p>
                 <table class="table" >
                     <tr>
@@ -104,9 +106,10 @@
                 </table>
             </div>
              <div id="main-content">
-                <header></header>
-            </div>
+             </div>
+             
         </div>
+    
         <script src="https://unpkg.com/axios/dist/axios.min.js" crossorigin="true"></script>
 <script src="script.js"></script>
 </body>
