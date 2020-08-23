@@ -12,6 +12,7 @@ body{
    
 }
 
+
 .side-menu{
      width:17%;
     background-color: white;
@@ -35,6 +36,7 @@ border-radius:1rem;
        margin-top:1rem;
     
 }
+
 .type{
     text-align: center;
     text-decoration: underline;
@@ -80,12 +82,40 @@ table{
 td{
     padding:0.4rem;
 }
+/*desktop view*/
+@media screen and (min-width:1024px) and (max-width:1440px){
+.side-menu{
+     width:16%;
+    
+}
+
+}
+/*tablet screen*/
+@media screen and (min-width: 700px) and (max-width:1024px){
+ 
+.side-menu{
+    width:39%;
+    margin-left: 0.8rem;
+}
+.data-card{
+    width:39%;
+   margin-right: 3%;
+   margin-left:-3%;
+}
+#main-content{
+    width:100%;
+    margin-top: 1.5rem;
+}
+p section{
+    font-size:100%;
+}
+}
 
  /* For mobile phones: */
 @media screen and (max-width: 700px) {
  
 .side-menu{
-    width:85%;
+    width:87%;
     margin-left: 0.8rem;
 }
 .data-card{
