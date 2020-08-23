@@ -40,26 +40,6 @@ border-radius:1rem;
     text-decoration: underline;
     margin-top: 0.5rem;
 }
-@media screen and (max-width: 700px) {
-  /* For mobile phones: */
-.side-menu{
-    width:87%;
-    margin-right: 3%;
-     margin-left: 0.8rem;
-}
-.data-card{
-    width:100%;
-   margin-right: 3%;
-   margin-left:3%;
-}
-#main-content{
-    width:100%;
-    margin-top: 1.5rem;
-}
-p section{
-    font-size:150%;
-}
-}
 
 td{
     text-align:center;
@@ -98,4 +78,26 @@ table{
 }
 td{
     padding:0.4rem;
+}
+
+ /* For mobile phones: */
+@media screen and (max-width: 700px) {
+ 
+.side-menu{
+    width:85%;
+   
+     margin-left: 0.8rem;
+}
+.data-card{
+    width:100%;
+   margin-right: 3%;
+   margin-left:3%;
+}
+#main-content{
+    width:100%;
+    margin-top: 1.5rem;
+}
+p section{
+    font-size:150%;
+}
 }
