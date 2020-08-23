@@ -153,7 +153,7 @@ function createDatacard(data) {
     var sland = document.createElement("p")
     div.classList.add("data-card")
     img.classList.add("responsive-img")
-    img.setAttribute("alt","Flight image")
+    img.setAttribute("alt", "Flight image")
     sland.innerHTML = `<b>Successful Landing: </b>` + data["rocket"]["first_stage"]["cores"][0]["land_success"]
     slaunch.innerHTML = `<b>Successful Launch: </b>` + data["launch_success"]
     ly.innerHTML = `<b>Launch Year: </b>` + data.launch_year
